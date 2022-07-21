@@ -1,0 +1,28 @@
+/* Estilização aplicada a todos elementos do site*/
+* {
+    padding: 0; /*Padding: espaçamento interno*/
+    margin: 0; /*Margem: espaçamento externo*/
+    background-color: #2A2A2A; /*Cor de fundo*/
+}
+
+/*Fontes Utilizadas*/
+@font-face {
+
+    font-family: Vogue; /*Nome da família*/
+    src: url(./resources/fonts/Vogue.ttf); /*Endereço da fonte*/
+
+    font-family: Scada-Regular;
+    src: url(./resources/fonts/Scada-Regular.ttf);
+
+    font-family: Scada-Bold;
+    src: url(./resources/fonts/Scada-Bold.ttf);
+
+    font-family: Saira-Regular;
+    src: url(./resources/fonts/Saira-Regular.ttf);
+
+    font-family: Saira-Light;
+    src: url(./resources/fonts/Saira-Light.ttf);
+
+}
+
+/*Adicione abaixo outras estilizações*/
