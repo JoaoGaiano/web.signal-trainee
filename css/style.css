@@ -2,27 +2,131 @@
 * {
     padding: 0; /*Padding: espaçamento interno*/
     margin: 0; /*Margem: espaçamento externo*/
-    background-color: #2A2A2A; /*Cor de fundo*/
+    color: #FAFAFA;
 }
 
 /*Fontes Utilizadas*/
 @font-face {
 
-    font-family: Vogue; /*Nome da família*/
-    src: url(./resources/fonts/Vogue.ttf); /*Endereço da fonte*/
+    font-family: 'Vogue'; /*Nome da família*/
+    src: url(../resources/fonts/Vogue.ttf); /*Endereço da fonte*/
 
-    font-family: Scada-Regular;
-    src: url(./resources/fonts/Scada-Regular.ttf);
+    font-family: 'Scada';
+    src: url(../resources/fonts/Scada.ttf);
 
-    font-family: Scada-Bold;
-    src: url(./resources/fonts/Scada-Bold.ttf);
+    font-family: 'Saira';
+    src: url(../resources/fonts/Saira.ttf);
 
-    font-family: Saira-Regular;
-    src: url(./resources/fonts/Saira-Regular.ttf);
-
-    font-family: Saira-Light;
-    src: url(./resources/fonts/Saira-Light.ttf);
+    font-family: 'Saira-Light';
+    src: url(../resources/fonts/Saira-Light.ttf);
 
 }
 
 /*Adicione abaixo outras estilizações*/
+
+/* --- Textos ----------------------- */
+
+.titulo-principal {
+    font-family: scada;
+    font-size: 72px;
+    color: #CCA700;
+}
+
+/* Descrições */ 
+
+.descricao {
+    font-family:Saira-Light;
+    font-size: 24px;
+    margin-top: 36px;
+    text-align: justify;
+}
+
+
+/* --- Navbar ----------------------- */
+
+.navbar {
+    height:72px;
+    width:100%;
+    background-color:#2A2A2A;
+    border-bottom:1px solid #393939;
+}
+
+.logo {
+    /* Adicione um espaçamento a esquerda de 24 pixels */
+     height:48px;
+     width: 48px;
+
+}
+
+.logo-extensao {
+    font-family: Vogue;
+    font-size: 24px; 
+    color: #FAFAFA;
+}  
+
+/* --- Seção: Sobre ------------------- */
+
+.sobre-container {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+    background-color: #2A2A2A;
+     
+}
+
+.sobre-slogan {
+    font-family: Scada;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* --- Seção: Objetivos ------------- */
+
+.objetivos-container {
+    
+}
+
+.objetivos-topico {
+    /* Adicione uma flexbox e alinhe os itens ao centro */
+}
+
+/* --- Componentes ------------------ */
+
+.icone {
+    /* Adicione uma margem a direita de 72 pixels */
+    height:32px;
+    width:32px;
+}
+
+.botao1 {
+    /* Adicione uma margem a direita do botão de 24 pixels */
+    display: inline-block;
+    width: 156px; /*largura*/
+    height: 32px; /*altura*/
+    background-color: #2A2A2A; /*cor de fundo do botao*/
+    border: 1px solid #CCA700; /*borda do botao*/
+    border-radius: 20px; /*arrendondamento da borda*/
+    text-align: center; /*alinhamento do texto*/
+    color: #CCA700; /*cor do texto*/
+    font-family: Scada; /*fonte utilizada*/
+    font-size: 24px; /*tamanho do texto*/
+    text-decoration: none; /*decoração do link (sublinhado, pontinhos, etc)*/
+    
+}
+
+.botao2 {
+    /* Adicione uma margem a direita dos botão de 32 pixels */
+    display: inline-block;
+    width: 156px; /*largura*/
+    height: 32px; /*altura*/
+    background-color: #CCA700; /*cor de fundo do botao*/
+    border: 1px solid #2A2A2A; /*borda do botao*/
+    border-radius: 20px; /*arrendondamento da borda*/
+    text-align: center; /*alinhamento do texto*/
+    color: #2A2A2A; /*cor do texto*/
+    font-family: Scada; /*fonte utilizada*/
+    font-size:24px; /*tamanho do texto*/
+    text-decoration: none; /*decoração do link (sublinhado, pontinhos, etc)*/
+    
+}
