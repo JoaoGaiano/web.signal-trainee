@@ -94,7 +94,14 @@
 .objetivos-topico {
     /* Adicione uma flexbox e alinhe os itens ao centro */
 }
-
+/* --- Contato ------------------ */
+.fale-conosco{
+    background-color: #303030;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
 /* --- Componentes ------------------ */
 
 .icone {
@@ -133,4 +140,19 @@
     font-size:24px; /*tamanho do texto*/
     text-decoration: none; /*decoração do link (sublinhado, pontinhos, etc)*/
     
+}
+.input{
+    width: 459px;
+    height: 81px;
+    background: #2A2A2A;
+    border-radius: 15px;
+    margin-bottom: 32px;
+    border: none;
+}
+.input::placeholder{
+    color: #CCA700;
+    font-size: 24px;
+    font-family: Scada;
+    padding-left: 24px;
+
 }
