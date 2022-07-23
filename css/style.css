@@ -84,7 +84,8 @@
 /* --- Seção: Objetivos ------------- */
 
 .objetivos-container {
-    
+    background-color: #303030;
+    width: 100%;
 }
 
 .objetivos-topico {
