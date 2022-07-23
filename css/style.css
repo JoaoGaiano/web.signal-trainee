@@ -85,7 +85,10 @@
 
 .objetivos-container {
     background-color: #303030;
+    height: 352px;
     width: 100%;
+    padding-top:32px; 
+    padding-bottom: 32px;
 }
 
 .objetivos-topico {
