@@ -48,7 +48,7 @@
 /* --- Textos ----------------------- */
 
 .titulo-principal {
-    font-family: scada;
+    font-family: Scada;
     font-size: 72px;
     color: #CCA700;
 }
@@ -106,13 +106,12 @@
 
 .objetivos-container {
     background-color: #303030;
-    height: 352px;
     width: 100%;
     padding-top:32px; 
     padding-bottom: 32px;
 }
 
-/* --- Parceiros --------------------- */
+/* --- Seção: Parceiros ------------- */
 
 .parceiros-container {
     background: #2A2A2A;
@@ -120,7 +119,7 @@
     width: 100%;
 }
 
-/* --- Contato ------------------ */
+/* --- Seção: Contato --------------- */
 .contato-container {
     background-color: #303030;
     width: 100%;
@@ -129,15 +128,17 @@
 }
     
 /* --- Rodapé ---------------------- */
-.footer{
+.footer {
     height:144px;
     width:100%;
     background-color: #2A2A2A;
     border-top:1px solid #393939;
 }
 
-/* --- Nossos Serviços ------------------ */
-.servicos-container{
+/* --- Seção: Serviços ------------- */
+.servicos-container {
+    display: flex;
+    justify-content: center;
     background-color: #303030;
     width: 100%;
     padding-top: 32px;
@@ -154,38 +155,36 @@
     font-family: Scada; 
     font-size: 24px;
     padding-top: 24px;
+    text-align: justify;
 }
 
 /* --- Componentes ------------------ */
 
 .icone {
-    /* Adicione uma margem a direita de 72 pixels */
+    /* Adicione uma margem a direita de 24 pixels */
     height:32px;
     width:32px;
 }
 
 /* Botões */
-
 .botao1 {
     /* Adicione uma margem a direita do botão de 24 pixels */
-    display: inline-block;
     width: 156px; /*largura*/
     height: 32px; /*altura*/
-    padding: 4px 0px 4px 0px;
     background-color: #2A2A2A; /*cor de fundo do botao*/
     border: 1px solid #CCA700; /*borda do botao*/
-    border-radius: 20px; /*arrendondamento da borda*/
+    border-radius: 30px; /*arrendondamento da borda*/
     text-align: center; /*alinhamento do texto*/
     color: #CCA700; /*cor do texto*/
     font-family: Scada; /*fonte utilizada*/
     font-size: 24px; /*tamanho do texto*/
     text-decoration: none; /*decoração do link (sublinhado, pontinhos, etc)*/
+    padding: 4px 0 4px 0;
     
 }
 
 .botao2 {
     /* Adicione uma margem a direita dos botão de 32 pixels */
-    display: inline-block;
     width: 156px; /*largura*/
     height: 32px; /*altura*/
     background-color: #CCA700; /*cor de fundo do botao*/
@@ -196,6 +195,7 @@
     font-family: Scada; /*fonte utilizada*/
     font-size:24px; /*tamanho do texto*/
     text-decoration: none; /*decoração do link (sublinhado, pontinhos, etc)*/
+    padding: 4px 0 4px 0;
     
 }
 
