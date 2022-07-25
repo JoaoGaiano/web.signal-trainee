@@ -22,6 +22,27 @@
 
 }
 
+/* Estilização da Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #393939; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #505050; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #454545; 
+  }
+
+
 /*Adicione abaixo outras estilizações*/
 
 /* --- Textos ----------------------- */
@@ -91,17 +112,50 @@
     padding-bottom: 32px;
 }
 
-.objetivos-topico {
-    /* Adicione uma flexbox e alinhe os itens ao centro */
+/* --- Parceiros --------------------- */
+
+.parceiros-container {
+    background: #2A2A2A;
+    height: 320px;
+    width: 100%;
 }
+
 /* --- Contato ------------------ */
-.fale-conosco{
+.contato-container {
     background-color: #303030;
     width: 100%;
     padding-top: 32px;
     padding-bottom: 32px;
-    
 }
+    
+/* --- Rodapé ---------------------- */
+.footer{
+    height:144px;
+    width:100%;
+    background-color: #2A2A2A;
+    border-top:1px solid #393939;
+}
+
+/* --- Nossos Serviços ------------------ */
+.servicos-container{
+    background-color: #303030;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;;
+}
+
+.servicos-titulo {
+    font-size: 48px; 
+    font-family: Scada;
+    font-weight: bold;
+}
+
+.servicos-descricao {
+    font-family: Scada; 
+    font-size: 24px;
+    padding-top: 24px;
+}
+
 /* --- Componentes ------------------ */
 
 .icone {
@@ -110,11 +164,14 @@
     width:32px;
 }
 
+/* Botões */
+
 .botao1 {
     /* Adicione uma margem a direita do botão de 24 pixels */
     display: inline-block;
     width: 156px; /*largura*/
     height: 32px; /*altura*/
+    padding: 4px 0px 4px 0px;
     background-color: #2A2A2A; /*cor de fundo do botao*/
     border: 1px solid #CCA700; /*borda do botao*/
     border-radius: 20px; /*arrendondamento da borda*/
@@ -141,18 +198,28 @@
     text-decoration: none; /*decoração do link (sublinhado, pontinhos, etc)*/
     
 }
+
+/* Inputs */
 .input{
-    width: 459px;
-    height: 81px;
+    width: 420px;
+    height: 72px;
     background: #2A2A2A;
     border-radius: 15px;
     margin-bottom: 32px;
     border: none;
+    padding-left: 24px;
+    color: #6E6E6E;
+    font-size: 24px;
+    font-family: Scada;
 }
+
 .input::placeholder{
     color: #CCA700;
     font-size: 24px;
     font-family: Scada;
-    padding-left: 24px;
+}
 
+.input:focus {
+    outline: none !important;
+    border: 1px solid #CCA700;
 }
