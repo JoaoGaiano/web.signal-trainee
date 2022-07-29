@@ -1,4 +1,4 @@
-# AM Seguros (Work in Progress)
+# AM Seguros
 Este site foi desenvolvido para o programa de trainees da Signal Jr. O treinamento consiste em criar um website em uma prática simulada com um cliente utilizando
 apenas HTML e CSS. O website segue um formato de portfólio e a identidade visual foi pensada e criada pelos integrantes de acordo com a proposta do cliente.
 
