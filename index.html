@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AM Seguros</title>
 
+    <link rel="icon" type="image/x-icon" href="/resources/icons/icone.logo.svg">
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
 </head>
 <body> 
-    <!-- Barra de Navegação: Lays -->
-    <header class="navbar"> <!-- div: divisão, container, caixa -->
+    <!-- Barra de Navegação -->
+    <header class="navbar">
 
-        <img class="logo" src="./resources/icons/icone.logo.svg"> <!-- img: imagens -->
-        <span class="logo-extensao">Seguros</span> <!-- span: trecho de um elemento -->
-        <a class="botao1" href="./services.html">Serviços</a> <!-- a: links-->
-        <a class="botao2" href="#fale-conosco">Contato</a>
-        
-        <img class="icone"src="./resources/icons/icone.facebook.svg">
-        <img class="icone"src="./resources/icons/icone.instagram.svg">
-        <img class="icone"src="./resources/icons/icone.whatsapp.svg">
+        <div style="display:flex ; align-items:center ; ">
+            <img class="logo" src="./resources/icons/icone.logo.svg">
+            <span class="logo-extensao">Seguros</span>
+        </div>
+
+        <div style="display:flex ; align-items: center;">
+            <a class="botao1" href="./services.html">Serviços</a>
+            <a class="botao2" href="#fale-conosco">Contato</a>
+            <a href=""><img class="icone"src="./resources/icons/icone.facebook.svg"></a>
+            <a href=""><img class="icone"src="./resources/icons/icone.instagram.svg"></a>
+            <a href=""><img class="icone"src="./resources/icons/icone.whatsapp.svg"></a>
+        </div>
 
     </header>
 
@@ -29,28 +34,25 @@
     <!-- Sobre -->
     <div class="sobre-container">
         
-        <!-- Container dos Textos -->
         <div style="margin-left: 144px">  
 
-            <h1 class="titulo-principal">Quem Somos</h1> <!-- h1: título -->
+            <h1 class="titulo-principal">Quem Somos</h1>
 
-            <!-- Container do Slogan -->
             <div style="display:flex ; margin-top: 36px;"> 
                 <img style="margin-right: 32px;" src="./resources/icons/icone.citacao.svg">    
                 <p class="sobre-slogan">Os melhores planos de seguros com preços que cabem no seu orçamento.</p>            
             </div>
 
             <p class="descricao">
-            Procuramos atender nossos segurados transmitindo a segurança que os mesmos precisam, acompanhando-os 
-            sempre durante a vigência da apólice. Buscamos a satisfação e credibilidade junto aos nossos clientes, 
-            levando aos mesmos o melhor custo x benefício na contratação do seu seguro.
+                Procuramos atender nossos segurados transmitindo a segurança que os mesmos precisam, acompanhando-os 
+                sempre durante a vigência da apólice. Buscamos a satisfação e credibilidade junto aos nossos clientes, 
+                levando aos mesmos o melhor custo x benefício na contratação do seu seguro.
             </p>
 
         </div>
 
-        <!-- Container da Logo -->
         <div>
-            <img style="height: 400px; margin-right: 144px; margin-left: 96px ; " src="./resources/img/img.logo.svg">
+            <img style="height: 400px; margin-right: 144px; margin-left: 96px; " src="./resources/img/img.logo.svg">
         </div>
 
     </div>
@@ -62,7 +64,7 @@
         </h1>
         <div style="display: flex; justify-content: center; align-items: center;">
             <div style="position: relative">
-                <img style="margin-left: 144px; width: 440px; position: absolute; bottom: -196px; " src="./resources/img/img.objetivo.svg">
+                <img style="margin-left: 144px; width: 416px; position: absolute; bottom: -196px; " src="./resources/img/img.objetivo.svg">
             </div>
             <div>
                 <p class="descricao" style="margin-right: 144px; margin-left: 33%"> 
@@ -74,21 +76,28 @@
         </div>
     </div>
 
-    <!--Com quem trabalhamos-->
-    <div>
-
+    <!-- Parceiros -->
+    <div class="parceiros-container"> 
+        <h1 class="parceiros-titulo">Com quem Trabalhamos</h1>
+        <div style="display:flex ; justify-content:center; align-items:center;">
+            <img style="height: 100px;" src="./resources/img/img.bradesco-seg.svg">
+            <img src="./resources/img/img.porto-seguro.svg">
+            <img style="height: 80px;" src="./resources/img/img.sompo-seg.svg">
+        </div>
     </div>
 
-    <!--Fale Conosco-->
-    <div id=fale-conosco class="contato-container" style="display: flex;align-items: center; height: 480px;">
+    <!-- Fale Conosco -->
+    <div id=fale-conosco class="contato-container" style="display: flex;align-items: center; height: 384px;">
+
         <div style="justify-content: center;margin-left: 144px;">
             <h1 class="titulo-principal"> Fale Conosco </h1>
             <p class="descricao">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                Preencha o formulário ao lado para que um dos nossos representantes possa estar entrando em contato e 
+                dando todas as informações a respeito de nossos planos e coberturas de seguro e respondendo eventuais dúvidas. 
             </p>
         </div>
-        <div style="justify-content: center; margin-left: 96px; text-align: center;">
+
+        <div style="justify-content: center; margin-left: 96px; text-align: center; margin-right: 144px;">
             <form>
                 <input class="input" type="text" placeholder="Digite o seu nome"><br>
                 <input class="input" type="email"placeholder="Digite o seu e-mail"><br>
@@ -98,6 +107,48 @@
                 </button>
             </form>
         </div>
+
     </div>
+
+     <!--Rodapé -->
+    <footer class="footer">
+
+        <div>
+            <div class="footer-dados">
+                <img class="icone-footer" src="./resources/icons/icone.local.svg">
+                <span style="color:#8b8b8b;">BR-465, Km 7 Seropédica-Rio de Janeiro CEP: 23.897-000</span>
+            </div>    
+
+            <div class="footer-dados">
+                <img class="icone-footer" src="./resources/icons/icone.telefone.svg">
+                <span style="color:#8b8b8b;">(00) 00000-0000</span>
+            </div>    
+
+            <div class="footer-dados">
+                <img class="icone-footer" src="./resources/icons/icone.email.svg">
+                <a style="color:#CCA700; text-decoration: none;" href="mailto:alanmoreira@email.com">alanmoreira@email.com</a>
+            </div>
+        </div>
+
+        <div>
+
+            <div class="footer-links">
+                <img class="icone-footer-white" src="./resources/icons/icone.facebook-gray.svg">
+                <a href="">Facebook</a>
+            </div>
+
+            <div class="footer-links">
+                <img class="icone-footer-white" src="./resources/icons/icone.instagram-gray.svg">
+                <a href="">Instagram</a>
+            </div>
+
+            <div class="footer-links">
+                <img class="icone-footer-white" src="./resources/icons/icone.whatsapp-gray.svg">
+                <a href="">Whatsapp</a>
+            </div>
+            
+        </div>
+
+    </footer>
 </body> 
 </html> 
